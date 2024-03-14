@@ -2,14 +2,14 @@
 
 import React from  'react';
 import ReactDOM from 'react-dom/client';
-import Header from './components/Header';
+import HeaderComponent from './components/HeaderComponent';
 import Body from './components/Body';
 
 // Main app layout component with header, body, and footer
 const App = () => {
     return (
         <div className='app'>
-            <Header/>
+            <HeaderComponent/>
             <Body/>
             
         </div>
