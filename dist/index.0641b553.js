@@ -27628,7 +27628,11 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _constants = require("../utils/constants");
+var _react = require("react");
+var _s = $RefreshSig$();
 const HeaderComponent = ()=>{
+    _s();
+    const [signup, setSignUp] = (0, _react.useState)("Login");
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "header",
         children: [
@@ -27640,12 +27644,12 @@ const HeaderComponent = ()=>{
                     alt: "logo"
                 }, void 0, false, {
                     fileName: "src/components/HeaderComponent.js",
-                    lineNumber: 7,
+                    lineNumber: 11,
                     columnNumber: 17
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/HeaderComponent.js",
-                lineNumber: 6,
+                lineNumber: 10,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27656,48 +27660,60 @@ const HeaderComponent = ()=>{
                             children: "Home"
                         }, void 0, false, {
                             fileName: "src/components/HeaderComponent.js",
-                            lineNumber: 11,
+                            lineNumber: 15,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "About"
                         }, void 0, false, {
                             fileName: "src/components/HeaderComponent.js",
-                            lineNumber: 12,
+                            lineNumber: 16,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "Contact"
                         }, void 0, false, {
                             fileName: "src/components/HeaderComponent.js",
-                            lineNumber: 13,
+                            lineNumber: 17,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "Cart"
                         }, void 0, false, {
                             fileName: "src/components/HeaderComponent.js",
-                            lineNumber: 14,
+                            lineNumber: 18,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            className: "sign-up",
+                            onClick: (e)=>{
+                                setSignUp(signup === "Login" ? "Logout" : "Login");
+                            },
+                            children: signup
+                        }, void 0, false, {
+                            fileName: "src/components/HeaderComponent.js",
+                            lineNumber: 19,
                             columnNumber: 21
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/HeaderComponent.js",
-                    lineNumber: 10,
+                    lineNumber: 14,
                     columnNumber: 17
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/HeaderComponent.js",
-                lineNumber: 9,
+                lineNumber: 13,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/HeaderComponent.js",
-        lineNumber: 5,
+        lineNumber: 9,
         columnNumber: 9
     }, undefined);
 };
+_s(HeaderComponent, "jluyNgOzUnaX2t1pNDJcwMHyGrk=");
 _c = HeaderComponent;
 exports.default = HeaderComponent;
 var _c;
@@ -27708,6 +27724,6 @@ $RefreshReg$(_c, "HeaderComponent");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../utils/constants":"hB8jg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["gbXMy","1xC6H","bNKaB"], "bNKaB", "parcelRequiree960")
+},{"react/jsx-dev-runtime":"iTorj","../utils/constants":"hB8jg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq"}]},["gbXMy","1xC6H","bNKaB"], "bNKaB", "parcelRequiree960")
 
 //# sourceMappingURL=index.0641b553.js.map
