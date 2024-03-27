@@ -7,14 +7,16 @@ import Body from './components/Body';
 import Contact from './components/Contact';
 import About from './components/About';
 import Error from './components/Error';
+import Footer from './components/Footer';
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
+import RestaurantMenu from './components/RestaurantMenu';
 // Main app layout component with header, body, and footer
 const App = () => {
     return (
         <div className='app'>
             <HeaderComponent/>
             <Outlet/>
-            
+            <Footer />
         </div>
     );
 }
@@ -35,6 +37,10 @@ const AppRouter = createBrowserRouter([
                     {
                         path: '/contact',
                         element: <Contact/>
+                    },
+                    {
+                        path: '/restaurant/:resId',
+                        element: <RestaurantMenu/>
                     }
 
                 ],
