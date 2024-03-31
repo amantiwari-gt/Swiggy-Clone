@@ -27723,10 +27723,17 @@ const HeaderComponent = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "logo-container",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    className: "logo",
-                    src: (0, _constants.LOGO_URL),
-                    alt: "logo"
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                    to: "/",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "logo",
+                        src: (0, _constants.LOGO_URL),
+                        alt: "logo"
+                    }, void 0, false, {
+                        fileName: "src/components/HeaderComponent.js",
+                        lineNumber: 12,
+                        columnNumber: 30
+                    }, undefined)
                 }, void 0, false, {
                     fileName: "src/components/HeaderComponent.js",
                     lineNumber: 12,
@@ -34408,6 +34415,8 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _userJs = require("./User.js");
+var _userJsDefault = parcelHelpers.interopDefault(_userJs);
 const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "about",
@@ -34418,25 +34427,30 @@ const About = ()=>{
                     children: "About Us"
                 }, void 0, false, {
                     fileName: "src/components/About.js",
-                    lineNumber: 6,
+                    lineNumber: 8,
                     columnNumber: 21
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    children: "veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 }, void 0, false, {
                     fileName: "src/components/About.js",
-                    lineNumber: 7,
+                    lineNumber: 9,
+                    columnNumber: 21
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _userJsDefault.default), {}, void 0, false, {
+                    fileName: "src/components/About.js",
+                    lineNumber: 10,
                     columnNumber: 21
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/components/About.js",
-            lineNumber: 5,
+            lineNumber: 7,
             columnNumber: 17
         }, undefined)
     }, void 0, false, {
         fileName: "src/components/About.js",
-        lineNumber: 3,
+        lineNumber: 5,
         columnNumber: 9
     }, undefined);
 };
@@ -34446,6 +34460,65 @@ var _c;
 $RefreshReg$(_c, "About");
 
   $parcel$ReactRefreshHelpers$5b98.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./User.js":"4iQHT"}],"4iQHT":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$9c32 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$9c32.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+const User = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "user-card",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: "User Profile"
+            }, void 0, false, {
+                fileName: "src/components/User.js",
+                lineNumber: 4,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: "Name: Aman Tiwari"
+            }, void 0, false, {
+                fileName: "src/components/User.js",
+                lineNumber: 5,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: "Email: @gmail"
+            }, void 0, false, {
+                fileName: "src/components/User.js",
+                lineNumber: 6,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: "Phone: 1234567890"
+            }, void 0, false, {
+                fileName: "src/components/User.js",
+                lineNumber: 7,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/User.js",
+        lineNumber: 3,
+        columnNumber: 9
+    }, undefined);
+};
+_c = User;
+exports.default = User;
+var _c;
+$RefreshReg$(_c, "User");
+
+  $parcel$ReactRefreshHelpers$9c32.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
