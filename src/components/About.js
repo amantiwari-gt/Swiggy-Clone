@@ -10,8 +10,6 @@ const About = () => {
                     <User/>
                 </div>
             </div>
-        
     )
 }
-
 export default About;
